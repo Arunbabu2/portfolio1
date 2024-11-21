@@ -1,0 +1,28 @@
+.banner {
+    height: 500px;
+    width: 100%;  
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end; /* Changed from 'end' to 'flex-end' */
+    width: 100%; /* Ensuring it spans the full width of the parent */
+    top: 0; /* Positioning it at the top */
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensuring it spans the full width of the parent */
+    margin-top: 150px;
+}
+
+.v {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+}

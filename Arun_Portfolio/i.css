@@ -1,0 +1,141 @@
+.main {
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: .4s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #08aff0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logo {
+    color: #08aff0;
+    background-color: #aeebde;
+    padding: 4px;
+    height: 40px;
+    width: 114px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.banner img {
+    height: 500px;
+}
+
+.info {
+    padding: 25px;
+    width: 500px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.info h3 {
+    font-family: 'Rubik', sans-serif;   
+    font-size: 25px;
+    padding: 10px 0px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.info h4 {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.icon {
+    position: relative;
+    font-size: 30px;
+}
+
+.icon a {
+    top: 7px;
+    margin-left: 20px;
+    position: relative;
+    color: #08aff0;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #08aff0;
+    color: white;
+    padding: 10px;
+}
+
+.btn .hire {
+    background-color: azure;
+    color: #08aff0;
+}
+
+.hire:hover {
+    background-color: #08aff0;
+    color: white;
+}
+
+.resume:hover {
+    background-color: #63c4ea;
+    color: aliceblue;
+}
